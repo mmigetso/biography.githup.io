@@ -127,3 +127,14 @@ video{
     margin-top: 20px;
     background-color: black;
 }
+@media (min-width: 50em){
+.mosala{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding-block: 2rem;
+       width:min(95%, 70rem) ;}
+   .feedback{
+    padding: 20px;
+    width: 70%;}
+}
