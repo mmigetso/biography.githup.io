@@ -127,7 +127,7 @@ video{
     margin-top: 20px;
     background-color: black;
 }
-@media (min-width: 50em){
+@media (min-width: 500px max-width 900px){
 .mosala{
     display: grid;
     gap: 1.5rem;
