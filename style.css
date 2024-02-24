@@ -1,0 +1,129 @@
+body{
+   background-color: aqua;
+   
+
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+#mihjan{
+    width: 300px;
+    height: 300px;
+}
+#adam{
+    width: 400px;
+        height: 300px;
+
+    }
+
+        #bash{
+            width: 400px;
+            height: 300px;}
+            #sman{
+                width: 400px;
+                height: 300px;
+            }
+h1{
+    text-align: center;
+    text-shadow: 6px 6px aquamarine;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: px solid black;
+    margin: 10px;
+
+}
+#mihjan{
+    float: left;
+    margin-right: 10px;
+}
+
+h2{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-family: serif;
+}
+ul{
+    list-style-type: none;
+}
+#school{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    background-color: wheat;
+}
+#feedback{
+    text-align: center;
+    font: size 30px;
+    background-color: white;
+    width: 50%;
+    margin-left: 400px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 30px;
+
+}
+.feedback{
+    padding: 20px;
+    width: 70%;
+
+
+}
+/*#mosala{
+    border: 1px solid black;
+    width: 45%;
+    
+
+#gusau{
+    border: 1px solid black;
+    width: 45%;
+
+}#sule{
+    border: 1px solid black;
+    width: 50%;*/
+    
+
+
+input:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.contacts{
+    text-align: center;
+    padding: 10px;
+    width: 40%;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+#lol{
+    text-align: left;
+}
+.mosala{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding-block: 2rem;
+    width:min(95%, 70rem) ;
+   /* margin-inline: auto;*/
+
+}
+video{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: black;
+}
